@@ -22,13 +22,13 @@ function create () {
 	}
 
 	//Draw Pucks
-	for (x=150; x < 1000; x += 200) {
+	for (x=50; x < 1000; x += 200) {
 		this.add.circle(x, 50, 40, 0x0000ff)
 	}
-	for (x=50; x < 1000; x += 200) {
+	for (x=150; x < 1000; x += 200) {
 		this.add.circle(x, 150, 40, 0x0000ff)
 	}
-	for (x=150; x < 1000; x += 200) {
+	for (x=50; x < 1000; x += 200) {
 		this.add.circle(x, 250, 40, 0x0000ff)
 	}
 
